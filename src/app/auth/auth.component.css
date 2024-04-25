@@ -1,0 +1,8 @@
+input.ng-invalid.ng-touched {
+  border: 0.1rem red solid;
+}
+
+.spin {
+  text-align: center;
+  padding-top: 9rem;
+}

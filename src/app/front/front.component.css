@@ -1,0 +1,61 @@
+.section {
+  width: 87vw;
+  height: 90vh;
+  display: flex;
+}
+
+.text-container {
+  width: 50vw;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 6rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 2vh;
+  color: darkgreen;
+}
+
+.content {
+  font-size: 1.8rem;
+  margin-bottom: 5vh;
+}
+
+.button {
+  background-color: yellowgreen;
+  border: 0.2rem solid gold;
+  color: black;
+  width: max-content;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-size: 2rem;
+  transition: all 1s;
+  scale: 0.9;
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+}
+
+.button:hover {
+  background-color: gold;
+  border: 0.2rem solid yellowgreen;
+  scale: 1;
+}
+
+.image-container {
+  width: 35vw;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container img {
+  height: 50vh;
+  border-radius: 50px;
+}

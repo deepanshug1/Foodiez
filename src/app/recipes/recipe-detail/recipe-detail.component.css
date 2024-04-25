@@ -1,0 +1,17 @@
+.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60rem;
+}
+
+img {
+  height: 25rem;
+  border-radius: 1rem;
+  /* -webkit-filter: contrast(5); */
+}
+
+.ingredient {
+  width: 35rem;
+}
